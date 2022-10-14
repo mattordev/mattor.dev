@@ -1,17 +1,17 @@
 /* Hero Section CSS */
 .main {
   background-color: #141414;
+  align-items: center;
 }
 
 .main__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   align-items: center;
   justify-self: center;
   margin: 0 auto;
   height: 90vh;
   background-color: #141414;
-  z-index: 1;
+
   width: 100%;
   max-width: 1300;
   padding: 0 50px;
@@ -36,11 +36,20 @@
   color: #fff;
 }
 
+.button__container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.button__container button {
+  padding: 25px 50px;
+  margin: 1.5rem 0;
+}
+
 /* Mobile Responsive */
 @media screen and (max-width: 768px) {
   .main__container {
-    display: grid;
-    grid-template-columns: auto;
     align-items: center;
     justify-self: center;
     width: 100%;
