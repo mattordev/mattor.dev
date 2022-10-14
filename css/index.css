@@ -48,6 +48,14 @@
   color: #fff;
 }
 
+.about__me p {
+  margin-top: 1rem;
+  margin-right: 10rem;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff;
+}
+
 .main__btn {
   font-size: 1rem;
   background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
@@ -128,6 +136,11 @@ main__img--container {
     margin-top: 1rem;
     font-size: 1.5rem;
   }
+
+  .about__me p {
+    font-size: 1rem;
+    text-align: center;
+  }
 }
 
 @media screen and (max-wdith: 480px) {
@@ -143,6 +156,11 @@ main__img--container {
   .main__content p {
     margin-top: 2rem;
     font-size: 1.5rem;
+  }
+
+  .about__me p {
+    font-size: 1rem;
+    text-align: center;
   }
 
   .main__btn {

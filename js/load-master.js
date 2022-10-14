@@ -10,7 +10,7 @@ function generateMain(data) {
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>MROBERTSCGD</title>
+        <title>MATTORDEV</title>
         <link rel="stylesheet" href="/css/index.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -47,7 +47,7 @@ function generateHeader(data) {
       <!-- Navbar Section -->
       <nav class="navbar">
         <div class="navbar__container">
-          <a href="/" id="navbar__logo"><img src = "${data.siteicon}" alt="Home Page" width=60" height="60">MROBERTSCGD</a>
+          <a href="/" id="navbar__logo"><img src = "${data.siteicon}" alt="Home Page" width=60" height="60">MATTORDEV</a>
           <div class="navbar__toggle" id="mobile-menu">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -100,7 +100,7 @@ function generateFooter(data) {
           <div class="social__media">
             <div class="social__media--wrap">
               <div class="footer__logo">
-                <a href="/" id="footer__logo"><img src = "${data.siteicon}" alt="Home Page" width=60" height="60"></i>MROBERTS</a>
+                <a href="/" id="footer__logo"><img src = "${data.siteicon}" alt="Home Page" width=60" height="60"></i>MATTORDEV</a>
               </div>
               <p class="website__rights">© Matthew Roberts 2022. All Rights Reserved</p>
               <div class="social__icons">
