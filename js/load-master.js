@@ -79,7 +79,6 @@ function generateFooter(data) {
     buttons += `
           <a href=${data.sitesocials[i].link} target="_blank" rel="noopener noreferrer" id="social__icons" class = "${data.sitesocials[i].icon}"></a>
         `;
-    console.log(data.sitesocials[i].icon);
   }
 
   // Gets the header ID from html files
