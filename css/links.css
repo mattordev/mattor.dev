@@ -1,20 +1,17 @@
 /* Hero Section CSS */
 .main {
   background-color: #141414;
-  align-items: center;
+  text-align: center;
 }
 
 .main__container {
   display: flex;
-  align-items: center;
-  justify-self: center;
-  margin: 0 auto;
-  height: 90vh;
+  justify-content: center;
   background-color: #141414;
 
   width: 100%;
   max-width: 1300;
-  padding: 0 50px;
+  padding-top: 60px;
 }
 
 .main__content h1 {
@@ -31,20 +28,44 @@
 
 .main__content p {
   margin-top: 1rem;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 600;
   color: #fff;
 }
 
-.button__container {
-  align-items: center;
-  justify-content: center;
+.social__container {
   display: flex;
+  max-width: 1600px;
+  justify-content: center;
+  margin-top: 25px;
 }
 
-.button__container button {
-  padding: 25px 50px;
-  margin: 1.5rem 0;
+.social__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.social__icons i {
+  margin: 10px;
+  font-size: 70px;
+}
+
+#social__icons--links {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  font-size: 1.8rem;
+  transition: all ease-in 0.2s;
+}
+
+#social__icons--links:hover {
+  opacity: 0.5;
+  transform: scale(1.1);
 }
 
 /* Mobile Responsive */
