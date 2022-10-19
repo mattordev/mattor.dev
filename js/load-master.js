@@ -84,8 +84,43 @@ function generateFooter(data) {
     `;
 }
 
+// generates a html footer from json
+function generateFooterNoLinks(data) {
+  let buttons = "";
+  for (let i = 0; i < data.sitesocials.length; i++) {
+    if (!data.sitesocials[i].showinfooter) {
+      continue;
+    }
+    buttons += `
+          <a href=${data.sitesocials[i].link} target="_blank" rel="noopener noreferrer" id="social__icons" class = "${data.sitesocials[i].icon}"></a>
+        `;
+  }
+
+  // Gets the header ID from html files
+  element = document.getElementById("footer-no-links");
+  element.innerHTML = `
+        <link rel="stylesheet" href="/css/footer.css">
+        <div class="footer__container">
+          <div class="footer__links">
+            <div class="footer__link--wrapper">
+            </div>
+            <div class="footer__link--wrapper"></div>
+          </div>
+          <div class="social__media">
+            <div class="social__media--wrap">
+              <div class="footer__logo">
+                <a href="/" id="footer__logo"><img src = "${data.siteicon}" alt="Home Page" width=60" height="60"></i>MATTORDEV</a>
+              </div>
+              <p class="website__rights">© Matthew Roberts 2022. All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+    `;
+}
+
 // Parse the header information into JS
 async function parsePageInfo(json) {
   generateHeader(json.Header);
   generateFooter(json.Footer);
+  generateFooterNoLinks(json.footer);
 }
