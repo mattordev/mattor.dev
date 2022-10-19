@@ -37,13 +37,10 @@
 
 .social__container {
   display: flex;
+  justify-content: center;
 }
 
 .social__icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 240px;
 }
 
 .social__icons i {
@@ -60,12 +57,9 @@
 #social__icons {
   color: #ffffff;
   text-decoration: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 240px;
   font-size: 1.8rem;
   transition: all ease-in 0.2s;
+  max-width: 100%;
 }
 
 #social__icons:hover {
