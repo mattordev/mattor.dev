@@ -26,7 +26,7 @@
 
       {
         "pagename": "Portfolio",
-        "redirect": "/work.html"
+        "redirect": "/portfolio.html"
       }
     ]
   },
