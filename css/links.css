@@ -127,4 +127,22 @@
     margin: 0 auto;
     max-width: 500px;
   }
+
+  .social__links {
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .social__links i {
+    font-size: 35px;
+    margin: auto;
+  }
+
+  .social__links p {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.8rem;
+  }
 }
