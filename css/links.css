@@ -61,6 +61,9 @@
 .social__links p {
   color: #fff;
   font-weight: 600;
+}
+
+.social__links a {
   text-decoration: none;
 }
 
