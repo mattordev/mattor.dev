@@ -102,8 +102,8 @@ main__img--container {
 }
 
 #main__img {
-  height: 80%;
-  width: 80%;
+  height: 90%;
+  width: 90%;
 }
 
 /* Mobile Responsive */
@@ -116,6 +116,11 @@ main__img--container {
     width: 100%;
     margin: 0 auto;
     height: 90vh;
+  }
+
+  #main__img {
+    width: fit-content;
+    max-width: 100%;
   }
 
   .main__content {
@@ -139,11 +144,15 @@ main__img--container {
 
   .about__me p {
     font-size: 1rem;
-    text-align: center;
+    width: 100%;
   }
 }
 
 @media screen and (max-wdith: 480px) {
+  .main__container {
+    height: 90vh;
+  }
+
   .main__content h1 {
     font-size: 2.2rem;
     margin-top: 3rem;
@@ -269,7 +278,7 @@ main__img--container {
 
   .services h1 {
     font-size: 2rem;
-    margin-top: 12rem;
+    margin-top: 6rem;
   }
 }
 
@@ -279,7 +288,9 @@ main__img--container {
   }
 
   .services h1 {
-    font-size: 1.2rem;
+    font-size: 24px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   .services__card {

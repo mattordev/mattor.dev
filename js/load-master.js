@@ -122,5 +122,5 @@ function generateFooterNoLinks(data) {
 async function parsePageInfo(json) {
   generateHeader(json.Header);
   generateFooter(json.Footer);
-  generateFooterNoLinks(json.footer);
+  //generateFooterNoLinks(json.Footer);
 }
