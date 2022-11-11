@@ -15,8 +15,8 @@
       },
 
       {
-        "pagename": "Links",
-        "redirect": "/links.html"
+        "pagename": "Portfolio",
+        "redirect": "/portfolio.html"
       },
 
       {
@@ -25,18 +25,18 @@
       },
 
       {
-        "pagename": "Portfolio",
-        "redirect": "/portfolio.html"
+        "pagename": "About",
+        "redirect": "/aboutme.html"
+      },
+
+      {
+        "pagename": "Links",
+        "redirect": "/links.html"
       },
 
       {
         "pagename": "Skills",
         "redirect": "/skills.html"
-      },
-
-      {
-        "pagename": "About",
-        "redirect": "/aboutme.html"
       }
     ]
   },
