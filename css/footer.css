@@ -140,6 +140,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  .footer__container {
+    height: 160px;
+  }
+
   .footer__link--items {
     margin: 0;
     padding: 10px;

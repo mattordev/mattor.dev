@@ -27,6 +27,16 @@
       {
         "pagename": "Portfolio",
         "redirect": "/portfolio.html"
+      },
+
+      {
+        "pagename": "Skills",
+        "redirect": "/skills.html"
+      },
+
+      {
+        "pagename": "About",
+        "redirect": "/aboutme.html"
       }
     ]
   },
