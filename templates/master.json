@@ -37,6 +37,11 @@
       {
         "pagename": "Skills",
         "redirect": "/skills.html"
+      },
+
+      {
+        "pagename": "Resume",
+        "redirect": "https://www.linkedin.com/in/mrobertscgd/"
       }
     ]
   },
