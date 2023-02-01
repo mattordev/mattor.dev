@@ -178,6 +178,83 @@ main__img--container {
   }
 }
 
+/* Skills section CSS */
+
+.skills__title {
+  background-color: #141414;
+  text-align: center;
+}
+
+.skills__title__container {
+  display: flex;
+  justify-content: center;
+  background-color: #141414;
+
+  width: 100%;
+  max-width: 1300;
+  padding-top: 60px;
+}
+
+.skills__title__container h1 {
+  font-size: 3rem;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.skills {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10;
+}
+
+.skills__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+}
+
+.skills i {
+  margin: 8px;
+  font-size: 10rem;
+  background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.skills p {
+  color: #fff;
+  font-weight: 600;
+}
+
+.skills a {
+  text-decoration: none;
+}
+
+#skills {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: all ease-in 0.2s;
+  max-width: 100%;
+}
+
+#skills:hover {
+  opacity: 0.5;
+  transform: scale(1.1);
+}
+
 /* Services section CSS */
 .services {
   background: #141414;
