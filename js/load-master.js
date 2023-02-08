@@ -64,11 +64,6 @@ function generateFooter(data) {
   element.innerHTML = `
         <link rel="stylesheet" href="/css/footer.css">
         <div class="footer__container">
-          <div class="footer__links">
-            <div class="footer__link--wrapper">
-            </div>
-            <div class="footer__link--wrapper"></div>
-          </div>
           <div class="social__media">
             <div class="social__media--wrap">
               <div class="footer__logo">

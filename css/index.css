@@ -107,6 +107,13 @@ main__img--container {
 }
 
 /* Mobile Responsive */
+
+@media screen and (max-width: 960px) {
+  .main__container {
+    height: 50vh;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .main__container {
     display: grid;
@@ -191,11 +198,12 @@ main__img--container {
   background-color: #141414;
 
   width: 100%;
-  max-width: 1300;
-  padding-top: 60px;
+  max-width: 1300px;
+  max-height: fit-content;
 }
 
 .skills__title__container h1 {
+  max-height: 100%;
   font-size: 3rem;
   background-color: #ff8177;
   background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
@@ -205,6 +213,7 @@ main__img--container {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  margin-top: 60px;
 }
 
 .skills {
@@ -253,6 +262,32 @@ main__img--container {
 #skills:hover {
   opacity: 0.5;
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 960px) {
+  .skills {
+    max-height: 150px;
+  }
+
+  .skills__title__container h1 {
+    font-size: 48px;
+    padding: 20px;
+    padding-bottom: 60px;
+  }
+
+  .skills__container i {
+    font-size: 7rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills__title__container h1 {
+    font-size: 24px;
+  }
+
+  .skills i {
+    font-size: 3.3rem;
+  }
 }
 
 /* Services section CSS */
@@ -350,11 +385,11 @@ main__img--container {
 
 @media screen and (max-width: 960px) {
   .services {
-    height: 1600px;
+    height: 1300px;
   }
 
   .services h1 {
-    font-size: 2rem;
+    font-size: 48px;
     margin-top: 6rem;
   }
 }
