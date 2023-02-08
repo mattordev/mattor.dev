@@ -87,7 +87,7 @@
     justify-self: center;
     width: 100%;
     margin: 0 auto;
-    height: 40vh;
+    height: 20vh;
   }
 
   .main__content {
@@ -103,6 +103,10 @@
   .main__content p {
     margin-top: 1rem;
     font-size: 1.5rem;
+  }
+
+  .social__container {
+    min-height: 100px;
   }
 
   .social__links {
@@ -126,14 +130,12 @@
   }
 
   .social__container {
-    font-size: 1.5rem;
-    margin: 0 auto;
-    max-width: 500px;
+    margin-left: auto;
   }
 
   .social__links {
     width: 100%;
-    max-width: 100%;
+    max-width: 90%;
     justify-content: space-evenly;
   }
 
