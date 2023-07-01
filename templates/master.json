@@ -20,11 +20,6 @@
       },
 
       {
-        "pagename": "Projects",
-        "redirect": "/projects.html"
-      },
-
-      {
         "pagename": "About",
         "redirect": "/aboutme.html"
       },
