@@ -106,7 +106,7 @@ main__img--container {
   width: 90%;
 }
 
-.skills__title__container {
+.skills__title__container h1 {
   display: flex;
   justify-content: center;
   background-color: #141414;
