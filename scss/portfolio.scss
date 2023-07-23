@@ -1,41 +1,41 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+// * {
+// 	margin: 0;
+// 	padding: 0;
+// 	box-sizing: border-box;
 
-  font-family: "Kumbh Sans", sans-serif;
-}
+// 	font-family: "Kumbh Sans", sans-serif;
+// }
 
-img {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-}
+// img {
+// 	display: block;
+// 	width: 100%;
+// 	max-width: 100%;
+// }
 
-.grid {
-  display: grid;
-  grid-gap: 16px;
-  padding: px;
+// .grid {
+// 	display: grid;
+// 	grid-gap: 16px;
+// 	padding: px;
 
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  @media (min-width: 960px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  @media (min-width: 1200px) {
-    grid-template-columns: repeat(4, 1fr);
-  }
+// 	@media (min-width: 768px) {
+// 		grid-template-columns: repeat(2, 1fr);
+// 	}
+// 	@media (min-width: 960px) {
+// 		grid-template-columns: repeat(3, 1fr);
+// 	}
+// 	@media (min-width: 1200px) {
+// 		grid-template-columns: repeat(4, 1fr);
+// 	}
 
-  .col {
-    background-color: pink;
-    margin-bottom: 16px;
-    padding: 16px;
+// 	.col {
+// 		background-color: pink;
+// 		margin-bottom: 16px;
+// 		padding: 16px;
 
-    &.img-block {
-      align-self: start;
-      padding: 0;
-      background-color: none;
-    }
-  }
-}
+// 		&.img-block {
+// 			align-self: start;
+// 			padding: 0;
+// 			background-color: none;
+// 		}
+// 	}
+// }

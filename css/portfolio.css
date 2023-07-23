@@ -1,93 +1,86 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Kumbh Sans", sans-serif;
-}
-
 img {
-  display: block;
-  width: 100%;
-  max-width: 100%;
+	display: block;
+	width: 100%;
+	max-width: 100%;
 }
 
 .main__content h1 {
-  text-align: center;
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-decoration-color: transparent;
-  text-decoration-color: transparent;
+	text-align: center;
+	background-color: #ff8177;
+	background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-decoration-color: transparent;
+	text-decoration-color: transparent;
 }
 
 .grid {
-  display: grid;
-  grid-gap: 16px;
-  padding: 16px;
+	display: grid;
+	grid-gap: 16px;
+	padding: 16px;
 }
 
 .col a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .grid h3 {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-decoration-color: transparent;
-  text-decoration-color: transparent;
+	background-color: #ff8177;
+	background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-decoration-color: transparent;
+	text-decoration-color: transparent;
 }
 
 .grid p {
-  background-color: #fff;
-  background-size: 100%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-decoration-color: transparent;
-  text-decoration-color: transparent;
-  font-weight: 550;
+	background-color: #fff;
+	background-size: 100%;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-decoration-color: transparent;
+	text-decoration-color: transparent;
+	font-weight: 550;
 }
 
 @media screen and (min-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+	.grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 @media screen and (min-width: 960px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+	.grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
 @media screen and (min-width: 1200px) {
-  .grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
+	.grid {
+		grid-template-columns: repeat(4, 1fr);
+	}
 }
 
 .grid .col {
-  background-color: rgba(58, 58, 58, 20%);
-  margin-bottom: 16px;
-  padding: 16px;
-  border-radius: 5px;
-  transition: 0.2s;
+	background-color: rgba(58, 58, 58, 20%);
+	margin-bottom: 16px;
+	padding: 16px;
+	border-radius: 5px;
+	transition: 0.2s;
 }
 
 .grid .col:hover {
-  opacity: 75%;
+	opacity: 75%;
 }
 
 .grid .col.img-block {
-  align-self: start;
-  padding: 0;
-  background-color: none;
+	align-self: start;
+	padding: 0;
+	background-color: none;
 } /*# sourceMappingURL=/scss/portfolio.css.map */

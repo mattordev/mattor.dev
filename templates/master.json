@@ -1,115 +1,115 @@
 {
-  "Main": {
-    "favicon": "\\images\\favicon.ico?",
-    "title": "MattorDev "
-  },
+	"Main": {
+		"favicon": "\\images\\favicon.ico?",
+		"title": "MattorDev "
+	},
 
-  "Header": {
-    "siteicon": "\\images\\icon_site.jpg?",
-    "sitetitle": "Matthew Roberts",
-    "sitebrief": "Portfolio",
-    "sitepages": [
-      {
-        "pagename": "Home",
-        "redirect": "/"
-      },
+	"Header": {
+		"siteicon": "\\img\\icon-site.png",
+		"sitetitle": "Matthew Roberts",
+		"sitebrief": "Portfolio",
+		"sitepages": [
+			{
+				"pagename": "Home",
+				"redirect": "/"
+			},
 
-      {
-        "pagename": "Portfolio",
-        "redirect": "/portfolio.html"
-      },
+			{
+				"pagename": "Portfolio",
+				"redirect": "/portfolio.html"
+			},
 
-      {
-        "pagename": "About",
-        "redirect": "/aboutme.html"
-      },
+			{
+				"pagename": "About",
+				"redirect": "/aboutme.html"
+			},
 
-      {
-        "pagename": "Links",
-        "redirect": "/links.html"
-      },
+			{
+				"pagename": "Links",
+				"redirect": "/links.html"
+			},
 
-      {
-        "pagename": "Resume",
-        "redirect": "https://www.linkedin.com/in/mrobertscgd/"
-      }
-    ]
-  },
+			{
+				"pagename": "Resume",
+				"redirect": "https://www.linkedin.com/in/mrobertscgd/"
+			}
+		]
+	},
 
-  "Footer": {
-    "text": "Copyright ©️ 2022-2023 Matthew Roberts. All Rights Reserved.",
-    "siteicon": "\\images\\icon_site.jpg?",
-    "sitesocials": [
-      {
-        "type": "Email",
-        "icon": "fa fa-envelope",
-        "link": "mailto://mrobertscgd@gmail.com",
-        "socialtype": "Contact Me",
-        "showinfooter": false
-      },
-      {
-        "type": "LinkedIn",
-        "icon": "fab fa-linkedin",
-        "link": "https://www.linkedin.com/in/mrobertscgd/",
-        "socialtype": "Contact Me",
-        "showinfooter": true
-      },
-      {
-        "type": "Steam",
-        "icon": "fab fa-steam",
-        "link": "",
-        "socialtype": "Portfolio",
-        "showinfooter": false
-      },
-      {
-        "type": "Itch.io",
-        "icon": "fab fa-itch-io",
-        "link": "https://mattrobertscgd.itch.io/",
-        "socialtype": "Portfolio",
-        "showinfooter": true
-      },
-      {
-        "type": "Github",
-        "icon": "fab fa-github",
-        "link": "https://github.com/mattordev",
-        "socialtype": "Portfolio",
-        "showinfooter": true
-      },
-      {
-        "type": "Twitch",
-        "icon": "fab fa-twitch",
-        "link": "https://www.twitch.tv/thetruemystic_",
-        "socialtype": "Other Socials",
-        "showinfooter": false
-      },
-      {
-        "type": "Youtube",
-        "icon": "fab fa-youtube",
-        "link": "https://www.youtube.com/c/thetruemystic_",
-        "socialtype": "Other Socials",
-        "showinfooter": true
-      },
-      {
-        "type": "Instagram",
-        "icon": "fab fa-instagram",
-        "link": "https://www.instagram.com/mattroberts294",
-        "socialtype": "Other Socials",
-        "showinfooter": false
-      },
-      {
-        "type": "Twitter",
-        "icon": "fab fa-twitter",
-        "link": "https://twitter.com/mattordev",
-        "socialtype": "Contact Me",
-        "showinfooter": true
-      },
-      {
-        "type": "Discord",
-        "icon": "fab fa-discord",
-        "link": "",
-        "socialtype": "Contact Me",
-        "showinfooter": false
-      }
-    ]
-  }
+	"Footer": {
+		"text": "Copyright ©️ 2022-2023 Matthew Roberts. All Rights Reserved.",
+		"siteicon": "\\images\\icon_site.jpg?",
+		"sitesocials": [
+			{
+				"type": "Email",
+				"icon": "fa fa-envelope",
+				"link": "mailto://mrobertscgd@gmail.com",
+				"socialtype": "Contact Me",
+				"showinfooter": false
+			},
+			{
+				"type": "LinkedIn",
+				"icon": "fab fa-linkedin",
+				"link": "https://www.linkedin.com/in/mrobertscgd/",
+				"socialtype": "Contact Me",
+				"showinfooter": true
+			},
+			{
+				"type": "Steam",
+				"icon": "fab fa-steam",
+				"link": "",
+				"socialtype": "Portfolio",
+				"showinfooter": false
+			},
+			{
+				"type": "Itch.io",
+				"icon": "fab fa-itch-io",
+				"link": "https://mattrobertscgd.itch.io/",
+				"socialtype": "Portfolio",
+				"showinfooter": true
+			},
+			{
+				"type": "Github",
+				"icon": "fab fa-github",
+				"link": "https://github.com/mattordev",
+				"socialtype": "Portfolio",
+				"showinfooter": true
+			},
+			{
+				"type": "Twitch",
+				"icon": "fab fa-twitch",
+				"link": "https://www.twitch.tv/thetruemystic_",
+				"socialtype": "Other Socials",
+				"showinfooter": false
+			},
+			{
+				"type": "Youtube",
+				"icon": "fab fa-youtube",
+				"link": "https://www.youtube.com/c/thetruemystic_",
+				"socialtype": "Other Socials",
+				"showinfooter": true
+			},
+			{
+				"type": "Instagram",
+				"icon": "fab fa-instagram",
+				"link": "https://www.instagram.com/mattroberts294",
+				"socialtype": "Other Socials",
+				"showinfooter": false
+			},
+			{
+				"type": "Twitter",
+				"icon": "fab fa-twitter",
+				"link": "https://twitter.com/mattordev",
+				"socialtype": "Contact Me",
+				"showinfooter": true
+			},
+			{
+				"type": "Discord",
+				"icon": "fab fa-discord",
+				"link": "",
+				"socialtype": "Contact Me",
+				"showinfooter": false
+			}
+		]
+	}
 }
