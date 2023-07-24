@@ -1,0 +1,111 @@
+{
+	"blank-project": {
+		"name": "",
+		"summary": "This project has been shown in error. Apologies whilst I work on a fix.",
+		"description": "This project has been shown in error. Apologies whilst I work on a fix.",
+		"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+		"icons": [
+			"devicon-arduino-plain",
+			"devicon-cplusplus-plain",
+			"devicon-csharp-plain",
+			"devicon-css3-plain",
+			"devicon-git-plain",
+			"devicon-github-original",
+			"devicon-html5-plain",
+			"devicon-javascript-plain",
+			"devicon-latex-original",
+			"devicon-python-plain",
+			"devicon-unity-original",
+			"devicon-unrealengine-original"
+		],
+		"URL": "",
+		"SourceURL": "",
+		"sections": [
+			{
+				"heading": "",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "This project has been shown in error. Apologies whilst I work on a fix."
+			}
+		]
+	},
+	"orbital-mechanics-simulator": {
+		"name": "Orbital Mechanics Simulator",
+		"summary": "A simple 2D simulator to help teach orbital mechanics in simple ways",
+		"description": "",
+		"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+		"icons": ["devicon-csharp-plain", "devicon-git-plain", "devicon-unity-original"],
+		"URL": "https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled",
+		"SourceURL": "",
+		"sections": [
+			{
+				"heading": "About the Project",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": ""
+			},
+			{
+				"heading": "My Role",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "This project serves as a simple (yet accurate.. to a degree) orbital mechanics simulator, which I developed as part of my GAM340 module during my time at Falmouth University.<br><br>Whilst it's not finished, it features many of the original features that I wanted when I set out my Statement of Intent when the project began. So, to that extent please keep in mind that the project is unfinished, and may never get finished regardless of my own personal plans for it (which are to keep working on it)"
+			},
+			{
+				"heading": "What would I do differently?",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "Overall there was a lot that went right with this project. But it's important to reflect on what I could've done differently throughout the projects duration to avoid making the same mistakes.\n Firstly, what went right? <ul style=\"list-style-type:square\"><li>I correctly simulated physics! This was one of the harder challenges for this entire project. But I managed to actually do it!</li><li>Full statistic tracking for the entire simulation! Each body can be focused on to see its stats as they update live.</li><li>A *pretty* in-depth tool set: Most of the simulation, it's bodies and parameters can be tweaked and changed using the in-sim tools.</li></ul>\n So now we know what went right, what would I do differently? <ul style=\"list-style-type:square\"><li>Time management: Looking back on the project as the deadline approached, I came to the conclusion that I spent too long on some of the simpler features and neglected some of the more important features that I initially set out to get into the simulation. This meant towards the end of the project, it was much more stressful than what it needed to be.</li><li>Overscoping, the forever problem: From the get go, I tried to keep the projects features in scope but this increasingly became and afterthought as I got closer to the deadline. Meaning that</li><li>Overscoping from the get go: </li></ul>"
+			},
+			{
+				"heading": "Where to Play",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "The simulator is available to download for free from the games <a href=https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled>Itch.io page</a> "
+			}
+		]
+	},
+	"corruption-of-arcana": {
+		"name": "Corruption of Arcana",
+		"summary": "A student led project developed over two years. Fight the corruption and reclaim the realm.",
+		"description": "",
+		"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+		"icons": ["devicon-csharp-plain", "devicon-git-plain", "devicon-unity-original"],
+		"URL": "https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled",
+		"SourceURL": "",
+		"sections": [
+			{
+				"heading": "About the Project",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "Gather your cards, weapons and potions because the corruption is growing stronger. Push into the heart of the realm and find the source of this terrible plague. Traverse the world in this 2.5D tarot-themed RPG card combat deck builder. Find new items and discover new lands. Anything is possible when fortune favours the bold."
+			},
+			{
+				"heading": "My Role",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "As one of the three programmers bringing the game to life, I played a multi-faceted role in the project. Alongside managing version control and working on the AI system, I also contributed to the development of general gameplay mechanics. Crafting engaging and seamless gameplay experiences for the players was an exciting aspect of my involvement in the project. Whether it was implementing interactive elements or fine-tuning core mechanics, I strived to ensure a captivating and enjoyable gaming experience. Embracing these diverse responsibilities allowed me to make a meaningful impact on the game's overall design and functionality."
+			},
+			{
+				"heading": "Showcases",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "We exhibited the game a variety of times at a handful of events, including Falmouth Universities Games Academy Expo and Gamebridge in Cambridge. The projects little brother, Battle for Arcana which uses many of the same systems has been selected as a finalist in the aclaimed Rookies Awards \"Mobile Game of the Year\" catagory."
+			},
+			{
+				"heading": "Where to Play",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "Corruption of Arcana is available to download for free from the games <a href=https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled>Itch.io page</a> "
+			}
+		]
+	}
+}
