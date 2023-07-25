@@ -36,7 +36,7 @@
 		"description": "",
 		"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
 		"icons": ["devicon-csharp-plain", "devicon-git-plain", "devicon-unity-original"],
-		"URL": "https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled",
+		"URL": "https://mattordev.itch.io/orbital-mechanics-simulator",
 		"SourceURL": "",
 		"sections": [
 			{
@@ -65,17 +65,17 @@
 				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
 				"video": "",
 				"media-showcase": "",
-				"description": "The simulator is available to download for free from the games <a href=https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled>Itch.io page</a> "
+				"description": "The simulator is available to download for free from the games <a href=https://mattordev.itch.io/orbital-mechanics-simulator>Itch.io page</a> "
 			}
 		]
 	},
-	"corruption-of-arcana": {
-		"name": "Corruption of Arcana",
-		"summary": "A student led project developed over two years. Fight the corruption and reclaim the realm.",
+	"gruttel-scuttle": {
+		"name": "Gruttel Scuttle",
+		"summary": "Command a village of Gruttels in their quest to clean the rubbish created by their horrible neighbours.",
 		"description": "",
 		"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
 		"icons": ["devicon-csharp-plain", "devicon-git-plain", "devicon-unity-original"],
-		"URL": "https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled",
+		"URL": "https://trojanmouse-games.itch.io/gruttel-scuttle",
 		"SourceURL": "",
 		"sections": [
 			{
@@ -83,28 +83,28 @@
 				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
 				"video": "",
 				"media-showcase": "",
-				"description": "Gather your cards, weapons and potions because the corruption is growing stronger. Push into the heart of the realm and find the source of this terrible plague. Traverse the world in this 2.5D tarot-themed RPG card combat deck builder. Find new items and discover new lands. Anything is possible when fortune favours the bold."
+				"description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels! \n Interact with and manage a colony of gruttels as they clean their rubbish-filled home. Select which gruttels you will bring on your cleaning excursions. Feed them Nana Betsy ready meals to power them up, throughout the level. Direct the gruttels to the rubbish and back to their recycling machines, snapping them out of any distractions. Be careful as when the rubbish starts to pile up, so do the gruttels' stress levels! Manage their stress until the timer runs out the successfully clean Holmfen! \nGruttel Scuttle is a fast-paced strategy management game, proudly produced by Trojan Mouse, a dedicated team of second-year game development students. We hope you fall in love with the little gruttels as much as we have! Enjoy the game and happy cleaning!"
 			},
 			{
 				"heading": "My Role",
 				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
 				"video": "",
 				"media-showcase": "",
-				"description": "As one of the three programmers bringing the game to life, I played a multi-faceted role in the project. Alongside managing version control and working on the AI system, I also contributed to the development of general gameplay mechanics. Crafting engaging and seamless gameplay experiences for the players was an exciting aspect of my involvement in the project. Whether it was implementing interactive elements or fine-tuning core mechanics, I strived to ensure a captivating and enjoyable gaming experience. Embracing these diverse responsibilities allowed me to make a meaningful impact on the game's overall design and functionality."
+				"description": "As one of the three programmers bringing the game to life, I played a multi-faceted role throughout the duration of the project. Alongside managing version control and working on the AI system, I also contributed to the development of general gameplay mechanics. Crafting engaging and seamless gameplay experiences for the players was an exciting aspect of my involvement in the project. Whether it was implementing interactive elements or fine-tuning core mechanics, I strived to ensure a captivating and enjoyable gaming experience. Embracing these diverse responsibilities allowed me to make a meaningful impact on the game's overall design and functionality. One of my favourite things I worked on in this game, were the systems that allow the player to interact with the gruttles by picking them up and directing them to the correct places!"
 			},
 			{
 				"heading": "Showcases",
 				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
 				"video": "",
 				"media-showcase": "",
-				"description": "We exhibited the game a variety of times at a handful of events, including Falmouth Universities Games Academy Expo and Gamebridge in Cambridge. The projects little brother, Battle for Arcana which uses many of the same systems has been selected as a finalist in the aclaimed Rookies Awards \"Mobile Game of the Year\" catagory."
+				"description": "We exhibited the game at Falmouth Universities Games Academy Expo at the end of our second year. The game was recieved well and lots of people put the team to thier paces in fixing small things as they cropped up - both young audiences and older loved the playfull artstyle and the worlds lovable inhabitants."
 			},
 			{
 				"heading": "Where to Play",
 				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
 				"video": "",
 				"media-showcase": "",
-				"description": "Corruption of Arcana is available to download for free from the games <a href=https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled>Itch.io page</a> "
+				"description": "Gruttel Scuttle is available to download for free from the games <a href=https://trojanmouse-games.itch.io/gruttel-scuttle>Itch.io page for free</a> "
 			}
 		]
 	}
