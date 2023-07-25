@@ -69,6 +69,45 @@
 			}
 		]
 	},
+	"corruption-of-arcana": {
+		"name": "Corruption of Arcana",
+		"summary": "A student led project developed over two years. Fight the corruption and reclaim the realm.",
+		"description": "",
+		"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+		"icons": ["devicon-csharp-plain", "devicon-git-plain", "devicon-unity-original"],
+		"URL": "https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled",
+		"SourceURL": "",
+		"sections": [
+			{
+				"heading": "About the Project",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "Gather your cards, weapons and potions because the corruption is growing stronger. Push into the heart of the realm and find the source of this terrible plague. Traverse the world in this 2.5D tarot-themed RPG card combat deck builder. Find new items and discover new lands. Anything is possible when fortune favours the bold."
+			},
+			{
+				"heading": "My Role",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "As one of the three programmers bringing the game to life, I played a multi-faceted role in the project. Alongside managing version control and working on the AI system, I also contributed to the development of general gameplay mechanics. Crafting engaging and seamless gameplay experiences for the players was an exciting aspect of my involvement in the project. Whether it was implementing interactive elements or fine-tuning core mechanics, I strived to ensure a captivating and enjoyable gaming experience. Embracing these diverse responsibilities allowed me to make a meaningful impact on the game's overall design and functionality."
+			},
+			{
+				"heading": "Showcases",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "We exhibited the game a variety of times at a handful of events, including Falmouth Universities Games Academy Expo and Gamebridge in Cambridge. The projects little brother, Battle for Arcana which uses many of the same systems has been selected as a finalist in the aclaimed Rookies Awards \"Mobile Game of the Year\" catagory."
+			},
+			{
+				"heading": "Where to Play",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "Corruption of Arcana is available to download for free from the games <a href=https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled>Itch.io page</a> "
+			}
+		]
+	},
 	"gruttel-scuttle": {
 		"name": "Gruttel Scuttle",
 		"summary": "Command a village of Gruttels in their quest to clean the rubbish created by their horrible neighbours.",
