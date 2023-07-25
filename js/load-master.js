@@ -1,27 +1,27 @@
 // Gets all the data corrosponding to the master-page
-let masterpage = fetch("/templates/master.json")
-  .then((response) => response.json())
-  .then((json) => parsePageInfo(json));
+let masterpage = fetch("/json/master.json")
+	.then((response) => response.json())
+	.then((json) => parsePageInfo(json));
 
 // generates a html header from json
 function generateHeader(data) {
-  // Gets the header ID from html files
-  element = document.getElementById("header");
-  element.innerHTML = `
+	// Gets the header ID from html files
+	element = document.getElementById("header");
+	element.innerHTML = `
         <link rel="stylesheet" href="/css/header.css">        
     `;
-  // Iterates through each page and appends it onto the html element
-  let buttons = "";
-  for (let i = 0; i < data.sitepages.length; i++) {
-    buttons += `
+	// Iterates through each page and appends it onto the html element
+	let buttons = "";
+	for (let i = 0; i < data.sitepages.length; i++) {
+		buttons += `
             <li class="navbar__btn">
                 <a href=${data.sitepages[i].redirect} class="button">${data.sitepages[i].pagename}</a>
             </li>
         `;
-  }
+	}
 
-  // Initialises the main part of the header
-  element.innerHTML += `
+	// Initialises the main part of the header
+	element.innerHTML += `
       <!-- Navbar Section -->
       <nav class="navbar">
         <div class="navbar__container">
@@ -38,30 +38,30 @@ function generateHeader(data) {
       </nav>
     `;
 
-  const menu = document.querySelector("#mobile-menu");
-  const menuLinks = document.querySelector(".navbar__menu");
+	const menu = document.querySelector("#mobile-menu");
+	const menuLinks = document.querySelector(".navbar__menu");
 
-  menu.addEventListener("click", function () {
-    menu.classList.toggle("is-active");
-    menuLinks.classList.toggle("active");
-  });
+	menu.addEventListener("click", function () {
+		menu.classList.toggle("is-active");
+		menuLinks.classList.toggle("active");
+	});
 }
 
 // generates a html footer from json
 function generateFooter(data) {
-  let buttons = "";
-  for (let i = 0; i < data.sitesocials.length; i++) {
-    if (!data.sitesocials[i].showinfooter) {
-      continue;
-    }
-    buttons += `
+	let buttons = "";
+	for (let i = 0; i < data.sitesocials.length; i++) {
+		if (!data.sitesocials[i].showinfooter) {
+			continue;
+		}
+		buttons += `
           <a href=${data.sitesocials[i].link} target="_blank" rel="noopener noreferrer" id="social__icons" class = "${data.sitesocials[i].icon}"></a>
         `;
-  }
+	}
 
-  // Gets the header ID from html files
-  element = document.getElementById("footer");
-  element.innerHTML = `
+	// Gets the header ID from html files
+	element = document.getElementById("footer");
+	element.innerHTML = `
         <link rel="stylesheet" href="/css/footer.css">
         <div class="footer__container">
           <div class="social__media">
@@ -81,19 +81,19 @@ function generateFooter(data) {
 
 // generates a html footer from json
 function generateFooterNoLinks(data) {
-  let buttons = "";
-  for (let i = 0; i < data.sitesocials.length; i++) {
-    if (!data.sitesocials[i].showinfooter) {
-      continue;
-    }
-    buttons += `
+	let buttons = "";
+	for (let i = 0; i < data.sitesocials.length; i++) {
+		if (!data.sitesocials[i].showinfooter) {
+			continue;
+		}
+		buttons += `
           <a href=${data.sitesocials[i].link} target="_blank" rel="noopener noreferrer" id="social__icons" class = "${data.sitesocials[i].icon}"></a>
         `;
-  }
+	}
 
-  // Gets the header ID from html files
-  element = document.getElementById("footer-no-links");
-  element.innerHTML = `
+	// Gets the header ID from html files
+	element = document.getElementById("footer-no-links");
+	element.innerHTML = `
         <link rel="stylesheet" href="/css/footer.css">
         <div class="footer__container">
           <div class="footer__links">
@@ -115,7 +115,7 @@ function generateFooterNoLinks(data) {
 
 // Parse the header information into JS
 async function parsePageInfo(json) {
-  generateHeader(json.Header);
-  generateFooter(json.Footer);
-  //generateFooterNoLinks(json.Footer);
+	generateHeader(json.Header);
+	generateFooter(json.Footer);
+	//generateFooterNoLinks(json.Footer);
 }

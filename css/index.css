@@ -26,7 +26,6 @@ body {
     box-sizing: border-box;
     margin: auto;
     min-height: fit-content;
-    height: 90vh;
 }
 
 .short {
@@ -45,12 +44,12 @@ body {
 
 .icon-list i {
     margin: auto;
-    font-size: 5vw;
-    color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    font-size: 5em;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
     background-size: 100%;
-    background-clip: text;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -58,7 +57,7 @@ body {
 
 h1 {
     margin: auto;
-    font-size: 5vw;
+    font-size: 5em;
     color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
     background-size: 100%;
@@ -71,7 +70,7 @@ h1 {
 
 h2 {
     margin: auto;
-    font-size: 3vw;
+    font-size: 3em;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
     background-size: 100%;
@@ -84,11 +83,11 @@ h2 {
 
 h3 {
     margin: auto;
-    font-size: 2.5vw;
+    font-size: 2.5em;
 }
 
 p {
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 .button {
@@ -134,8 +133,8 @@ p {
 
 .promo-image {
     text-align: center;
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     aspect-ratio: 4/3;
     object-fit: cover;
 }
@@ -145,9 +144,11 @@ p {
 }
 
 .promo-card {
+    transform: scale(0.9);
+    transition: 0.5s;
     position: relative;
     color: var(--text);
-    width: 25%;
+    width: 40%;
     margin: 1vw;
 }
 
@@ -178,17 +179,16 @@ p {
 }
 
 .promo-card:hover {
-    transform: scale(1.075);
-    transition: 0.2s ease-in;
+    transform: scale(1);
+    transition: 0.5s;
     cursor: pointer;
 }
 
 /* Mobile Responsive */
-@media (max-width: 960px),
-(max-aspect-ratio: 1/1) {
+@media (max-aspect-ratio: 1/1) and (min-width: 5in) {
     .section-container {
         max-height: fit-content;
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
     }
 
