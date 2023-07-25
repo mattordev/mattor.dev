@@ -66,13 +66,10 @@ function generateFooter(data) {
         <div class="footer__container">
           <div class="social__media">
             <div class="social__media--wrap">
-              <div class="footer__logo">
-                <a href="/" id="footer__logo"><img src = "${data.siteicon}" alt="Home Page" width=60" height="60"></i>MATTORDEV</a>
-              </div>
-              <p class="website__rights">© Matthew Roberts 2022. All Rights Reserved</p>
               <div class="social__icons">
               ${buttons}
               </div>
+              <p class="website__rights">© Matthew Roberts 2022. All Rights Reserved</p>
             </div>
           </div>
         </div>
@@ -103,9 +100,6 @@ function generateFooterNoLinks(data) {
           </div>
           <div class="social__media">
             <div class="social__media--wrap">
-              <div class="footer__logo">
-                <a href="/" id="footer__logo"><img src = "${data.siteicon}" alt="Home Page" width=60" height="60"></i>MATTORDEV</a>
-              </div>
               <p class="website__rights">© Matthew Roberts 2022. All Rights Reserved</p>
             </div>
           </div>

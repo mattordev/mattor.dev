@@ -28,6 +28,10 @@ body {
     min-height: fit-content;
 }
 
+.flex-reversed {
+    flex-direction: row-reverse;
+}
+
 .short {
     height: fit-content;
 }

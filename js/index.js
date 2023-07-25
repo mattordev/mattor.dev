@@ -1,5 +1,5 @@
 // Gets all the data corrosponding to the master-page
-let indexpage = fetch("/templates/master.json")
+let indexpage = fetch("/json/master.json")
 	.then((response) => response.json())
 	.then((json) => generateMain(json));
 
