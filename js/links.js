@@ -5,13 +5,20 @@ let indexpage = fetch("/templates/master.json")
 
 // generates a html main from json
 function generateMain(data) {
+  const path = window.location.pathname.toLowerCase();
+  const isLinksPage = path.endsWith("/links.html") || path === "/links.html" || path === "/links";
+
+  const linksStylesheet = isLinksPage
+    ? '<link rel="stylesheet" href="/css/links.css" />'
+    : "";
+
   element = document.getElementById("head");
   element.innerHTML += `
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>MATTORDEV</title>
-        <link rel="stylesheet" href="/css/links.css" />
+        ${linksStylesheet}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link

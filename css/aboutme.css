@@ -3,7 +3,7 @@
 	background-color: #141414;
 }
 
-/* Container — readable width + subtle reading frame */
+/* Container - readable width + subtle reading frame */
 .main__container {
 	max-width: 760px;
 	margin: 0 auto;
@@ -73,7 +73,7 @@
 	line-height: 1.6;
 }
 
-/* Paragraphs — readability */
+/* Paragraphs - readability */
 .main__content p {
 	margin-bottom: 1.4rem;
 	font-size: 1.05rem;

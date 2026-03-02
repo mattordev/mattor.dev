@@ -1,32 +1,285 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head id="head">
-    <title id="title">Portfolio Website</title>
-    <link rel="stylesheet" href="/css/projectpages/projectpages.css" />
-    <script
-      src="https://kit.fontawesome.com/b4a39bea9d.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+	<head id="head">
+		<title id="title">Portfolio Website</title>
+		<link rel="stylesheet" href="/css/index.css" />
+		<link rel="stylesheet" href="/css/portfoliopages/portfoliopage-template.css" />
+		<script src="https://kit.fontawesome.com/b4a39bea9d.js" crossorigin="anonymous"></script>
+	</head>
 
-  <body bgcolor="#141414">
-    <!-- Navbar Section -->
-    <header id="header"></header>
+	<body bgcolor="#141414">
+		<!-- Navbar Section -->
+		<header id="header"></header>
 
-    <!-- Main Section -->
-    <div class="main">
-      <div class="main__container">
-        <div class="main__content">
-          <h1>Project Title</h1>
-          <p>One line summary</p>
-        </div>
-      </div>
-    </div>
+		<!-- Main Section -->
+		<div class="main">
+			<div class="main__container main__container--project">
+				<div class="main__content project-section">
+					<h1 class="project-title">
+						<img
+							class="project-title__image"
+							src="/images/portfolioimages/coa2/Pink_Title.png"
+							alt="Corruption of Arcana Chapter 2: Reshuffled"
+							loading="eager"
+							decoding="async"
+						/>
+					</h1>
 
-    <!-- Footer Section -->
-    <footer id="footer"></footer>
+					<div class="project-cards">
+						<!-- Add project-item--featured to any row you want to emphasize -->
+						<div class="project-item project-item--left">
+							<div class="project-card">
+								<h2>Overview</h2>
+								<p class="project-card__excerpt">
+									Gather your cards, weapons and potions because the corruption is growing stronger.
+									Push into the heart of the realm and find the source of this terrible plague.
+									Traverse the world in this 2.5D tarot-themed RPG card combat deck builder. Find new
+									items and discover new lands. Anything is possible when fortune favours the bold.
+								</p>
+								<div class="project-card__more" hidden>
+									<p>
+										Corruption of Arcana was my third-year project. We worked collaboratively in a
+										team of 12, divided into 5 smaller departments:
+									</p>
+									<ul>
+										<li>Programming</li>
+										<li>2D Art</li>
+										<li>3D Art</li>
+										<li>Audio</li>
+										<li>Design</li>
+									</ul>
+									<p>
+										I was in the programming department, and my main role was to implement the World
+										AI and provide support as the version control manager.
+									</p>
+								</div>
+								<button class="project-card__toggle" type="button">View details</button>
+							</div>
+							<div class="project-media">
+								<!-- Image sizing note: .project-card__image is default. Add .project-card__image--compact if an image feels too dominant. -->
+								<img
+									class="project-card__image"
+									src="/images/portfolioimages/coa2/Screenshot%202026-03-02%20151201.png"
+									alt="Corruption of Arcana Chapter 2 overview screenshot"
+									loading="lazy"
+									decoding="async"
+								/>
+							</div>
+						</div>
 
-    <script src="/js/load-master.js"></script>
-    <script src="/js/links.js"></script>
-  </body>
+						<div class="project-item project-item--right project-item--featured">
+							<div class="project-media">
+								<img
+									class="project-card__image"
+									src="/images/portfolioimages/coa2/coa2-technical-diagram.svg"
+									alt="Technical diagram showing gameplay systems, AI, developer console, and save pipeline"
+									loading="lazy"
+									decoding="async"
+								/>
+							</div>
+							<div class="project-card">
+								<h2>Technical Breakdown</h2>
+								<p class="project-card__excerpt">
+									Unity project split into exploration, combat, and shared progression systems.
+								</p>
+								<ul class="project-card__excerpt">
+									<li>Console tooling: I built and extended debug commands for faster testing.</li>
+									<li>World AI: I improved enemy state flow and NavMesh roaming behavior.</li>
+									<li>
+										Persistence: I added save/load hooks for scene, player, quest, and card
+										progress.
+									</li>
+								</ul>
+								<div class="project-card__more" hidden>
+									<h3>Console And Tooling</h3>
+									<p>
+										I implemented command parsing for the in-game developer console, including
+										<code>/give</code> and quest/debug commands. This let us test progression
+										quickly without rebuilding scenes.
+									</p>
+									<h3>AI Systems</h3>
+									<p>
+										I contributed to enemy state behavior (wander/chase/follow) and improved roaming
+										logic using NavMesh movement and patrol tooling iterations.
+									</p>
+									<h3>Saving And Progression</h3>
+									<p>
+										I worked on save features for scene/player continuity and progression state so
+										exploration and combat transitions remained consistent.
+									</p>
+									<p>
+										I also owned Android build delivery for Battle for Arcana and supported version
+										control workflow to keep team integrations stable.
+									</p>
+								</div>
+								<button class="project-card__toggle" type="button">View details</button>
+							</div>
+						</div>
+
+						<div class="project-item project-item--left">
+							<div class="project-card">
+								<h2>Challenges & Solutions</h2>
+								<p class="project-card__excerpt">
+									The two most persistent technical challenges were debug tool reliability in builds
+									and maintaining stable progression continuity across scenes.
+								</p>
+
+								<div class="project-card__more" hidden>
+									<h3>Challenge 1 - Developer Console Reliability</h3>
+									<p>
+										The in-game developer console was essential for testing progression, quest
+										states, and item grants. However, in certain builds it behaved inconsistently -
+										sometimes failing to appear, or disabling gameplay UI without properly restoring
+										it.
+									</p>
+
+									<p>
+										This slowed iteration significantly, especially when testing edge cases or
+										late-game progression scenarios.
+									</p>
+
+									<h3>Solution - State Handling & Command Flow Refactor</h3>
+									<p>
+										I refactored the console toggle flow and aligned UI enable/disable logic with
+										explicit state checks. I also improved command parsing reliability for commands
+										such as <code>/give</code> and quest-debug tools.
+									</p>
+
+									<ul>
+										<li>Stabilised UI toggle behaviour in builds</li>
+										<li>Improved debug command consistency</li>
+										<li>Reduced time spent reproducing progression bugs</li>
+									</ul>
+
+									<h3>Challenge 2 - Cross-Scene Progression Continuity</h3>
+									<p>
+										Exploration and combat existed in separate scenes, creating fragile transitions.
+										Player stats, quest flags, and deck progression could reset or desynchronise
+										when returning from combat.
+									</p>
+
+									<p>Early issues included:</p>
+
+									<ul>
+										<li>Quest progress not restoring correctly</li>
+										<li>Inventory duplication or card reset bugs</li>
+										<li>Scene return context inconsistencies</li>
+									</ul>
+
+									<h3>Solution - Structured Save Hooks & Data Ownership</h3>
+									<p>
+										I researched and documented the save pipeline before refactoring it. I defined
+										explicit persistence categories:
+									</p>
+
+									<ul>
+										<li>Scene index and return position</li>
+										<li>Player health and stat state</li>
+										<li>Quest progression flags</li>
+										<li>Deck composition and upgrades</li>
+										<li>Inventory item lists</li>
+									</ul>
+
+									<p>
+										I implemented structured save hooks for each system and added load-time
+										validation checks to prevent corrupted or partial restores.
+									</p>
+
+									<h3>Item Tracking Improvements</h3>
+									<p>
+										To prevent desynchronisation, I formalised an item save list system that
+										serialised inventory and card data into controlled data models, separating
+										runtime objects from persistent state.
+									</p>
+
+									<ul>
+										<li>Runtime objects rebuilt from saved data on load</li>
+										<li>Reduced duplicate or missing item bugs</li>
+										<li>Improved long-session QA stability</li>
+									</ul>
+
+									<h3>Outcome</h3>
+									<p>
+										The result was faster internal QA cycles, more reliable builds, and a stable
+										cross-scene progression loop that supported extended playtesting without
+										regression.
+									</p>
+								</div>
+
+								<button class="project-card__toggle" type="button">View details</button>
+							</div>
+
+							<div class="project-media">
+								<img
+									class="project-card__image"
+									src="/images/portfolioimages/coa2/save-system-research.png"
+									alt="Save system research and developer console documentation"
+									loading="lazy"
+									decoding="async"
+								/>
+							</div>
+						</div>
+
+						<div class="project-item project-item--right project-item--featured">
+							<div class="project-media">
+								<img
+									class="project-card__image"
+									src="/images/portfolioimages/coa2/coa2-lessons-diagram.svg"
+									alt="What I learned from building gameplay systems and tools"
+									loading="lazy"
+									decoding="async"
+								/>
+							</div>
+
+							<div class="project-card">
+								<h2>What I Learned</h2>
+								<p class="project-card__excerpt">
+									This project reshaped how I approach system design, debugging tools, and data
+									ownership.
+								</p>
+
+								<div class="project-card__more" hidden>
+									<p>
+										I learned that unreliable internal tools can slow a team down more than missing
+										features. Stabilising the developer console significantly improved iteration
+										speed and reduced friction during playtesting.
+									</p>
+
+									<p>
+										On the systems side, working on persistence reinforced the importance of clear
+										data boundaries. Separating runtime behaviour from serialised save data
+										prevented desynchronisation issues and made debugging progression bugs far more
+										predictable.
+									</p>
+
+									<p>
+										If I rebuilt this project today, I would formalise data models and persistence
+										architecture earlier in development, rather than adapting them mid-production.
+										This experience has influenced how I now structure gameplay systems in Unity.
+									</p>
+								</div>
+
+								<button class="project-card__toggle" type="button">View details</button>
+							</div>
+						</div>
+					</div>
+
+					<a
+						class="project-btn"
+						href="https://necropanda-studios.itch.io/corruption-of-arcana-chapter-2-reshuffled"
+						target="_blank"
+						rel="noopener noreferrer"
+						>Download here
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer Section -->
+		<footer id="footer"></footer>
+
+		<script src="/js/load-master.js"></script>
+		<script src="/js/links.js"></script>
+		<script src="/js/project-card-toggle.js"></script>
+	</body>
 </html>

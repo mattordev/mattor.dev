@@ -49,13 +49,23 @@ function generateHeader(data) {
 
 // generates a html footer from json
 function generateFooter(data) {
+  const normalizeIconClass = (iconClass) =>
+    iconClass
+      .replace(/\bfab\b/g, "fa-brands")
+      .replace(/\bfas\b/g, "fa-solid")
+      .replace(/\bfar\b/g, "fa-regular");
+
   let buttons = "";
   for (let i = 0; i < data.sitesocials.length; i++) {
     if (!data.sitesocials[i].showinfooter) {
       continue;
     }
+    const iconClass = normalizeIconClass(data.sitesocials[i].icon);
     buttons += `
-          <a href=${data.sitesocials[i].link} target="_blank" rel="noopener noreferrer" id="social__icons" class = "${data.sitesocials[i].icon}"></a>
+          <a href=${data.sitesocials[i].link} target="_blank" rel="noopener noreferrer" class="social__icons--link" aria-label="${data.sitesocials[i].type}">
+            <i class="${iconClass}" aria-hidden="true"></i>
+            
+          </a>
         `;
   }
 
@@ -69,10 +79,10 @@ function generateFooter(data) {
               <div class="footer__logo">
                 <a href="/" id="footer__logo"><img src = "${data.siteicon}" alt="Home Page" width=60" height="60"></i>MATTORDEV</a>
               </div>
-              <p class="website__rights">© Matthew Roberts 2022. All Rights Reserved</p>
               <div class="social__icons">
               ${buttons}
               </div>
+              <p class="website__rights">© Matthew Roberts 2022. All Rights Reserved</p>
             </div>
           </div>
         </div>
@@ -81,13 +91,23 @@ function generateFooter(data) {
 
 // generates a html footer from json
 function generateFooterNoLinks(data) {
+  const normalizeIconClass = (iconClass) =>
+    iconClass
+      .replace(/\bfab\b/g, "fa-brands")
+      .replace(/\bfas\b/g, "fa-solid")
+      .replace(/\bfar\b/g, "fa-regular");
+
   let buttons = "";
   for (let i = 0; i < data.sitesocials.length; i++) {
     if (!data.sitesocials[i].showinfooter) {
       continue;
     }
+    const iconClass = normalizeIconClass(data.sitesocials[i].icon);
     buttons += `
-          <a href=${data.sitesocials[i].link} target="_blank" rel="noopener noreferrer" id="social__icons" class = "${data.sitesocials[i].icon}"></a>
+          <a href=${data.sitesocials[i].link} target="_blank" rel="noopener noreferrer" class="social__icons--link" aria-label="${data.sitesocials[i].type}">
+            <i class="${iconClass}" aria-hidden="true"></i>
+            
+          </a>
         `;
   }
 
@@ -105,6 +125,9 @@ function generateFooterNoLinks(data) {
             <div class="social__media--wrap">
               <div class="footer__logo">
                 <a href="/" id="footer__logo"><img src = "${data.siteicon}" alt="Home Page" width=60" height="60"></i>MATTORDEV</a>
+              </div>
+              <div class="social__icons">
+              ${buttons}
               </div>
               <p class="website__rights">© Matthew Roberts 2022. All Rights Reserved</p>
             </div>
