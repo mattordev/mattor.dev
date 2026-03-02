@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+	<head id="head">
+		<title id="title">Portfolio Website</title>
+		<link rel="stylesheet" href="/css/index.css" />
+		<link rel="stylesheet" href="/css/portfoliopages/portfoliopage-template.css" />
+		<script src="https://kit.fontawesome.com/b4a39bea9d.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body bgcolor="#141414">
+		<!-- Navbar Section -->
+		<header id="header"></header>
+
+		<!-- Main Section -->
+		<div class="main">
+			<div class="main__container main__container--project">
+				<div class="main__content project-section">
+					<h1>Project Title</h1>
+
+					<div class="project-cards">
+						<!-- Add project-item--featured to any row you want to emphasize -->
+						<div class="project-item project-item--left">
+							<div class="project-card">
+								<h2>Overview</h2>
+								<p class="project-card__excerpt">One or two sentences describing what the project is and why it matters.</p>
+								<div class="project-card__more" hidden>
+									<p>Use this section to explain project goals, intended audience, and the core problem you set out to solve.</p>
+									<p>Include context like project scope, constraints, and links to source code or planning documents if relevant.</p>
+								</div>
+								<button class="project-card__toggle" type="button">View details</button>
+							</div>
+							<div class="project-media">
+								<!-- Image sizing note: .project-card__image is default. Add .project-card__image--compact if an image feels too dominant. -->
+								<img
+									class="project-card__image"
+									src="//placehold.co/1200x675/1b2230/ffb199?text=Overview+Image"
+									alt="Project overview placeholder image"
+									loading="lazy"
+									decoding="async"
+								/>
+							</div>
+						</div>
+
+						<div class="project-item project-item--right project-item--featured">
+							<div class="project-media">
+								<img
+									class="project-card__image"
+									src="//placehold.co/1200x675/1f1f26/f9d2a7?text=Technical+Diagram"
+									alt="Technical breakdown placeholder image"
+									loading="lazy"
+									decoding="async"
+								/>
+							</div>
+							<div class="project-card">
+								<h2>Technical Breakdown</h2>
+								<p class="project-card__excerpt">Short technical summary of how the project is structured.</p>
+								<ul class="project-card__excerpt">
+									<li>Architecture: Describe your high-level system layout</li>
+									<li>Tech Stack: List languages, engines, frameworks, and tooling</li>
+									<li>Core Challenge: Name the hardest technical problem solved</li>
+								</ul>
+								<div class="project-card__more" hidden>
+									<h3>Architecture</h3>
+									<p>Explain how your major modules/components are organized and how responsibilities are divided.</p>
+									<h3>Data Flow</h3>
+									<p>Describe how data moves through the app from user input to output/state updates.</p>
+									<h3>Implementation Notes</h3>
+									<p>Call out patterns, reusable systems, and key technical decisions.</p>
+									<h3>Trade-offs</h3>
+									<p>Document what you optimized for and what you intentionally deferred.</p>
+									<h3>Next Iteration</h3>
+									<p>List what you would refactor, improve, or expand in the next version.</p>
+								</div>
+								<button class="project-card__toggle" type="button">View details</button>
+							</div>
+						</div>
+
+						<div class="project-item project-item--left">
+							<div class="project-card">
+								<h2>Challenges & Solutions</h2>
+								<p class="project-card__excerpt">Describe one concrete challenge and how you solved it.</p>
+								<div class="project-card__more" hidden>
+									<p>State the issue, why it happened, and how it impacted users or development.</p>
+									<p>Explain the fix, then note measurable outcomes or what still needs follow-up.</p>
+									<ul>
+										<li>Issue: What broke or behaved unexpectedly</li>
+										<li>Fix: What you changed and why it worked</li>
+										<li>Outcome: What improved after the change</li>
+									</ul>
+								</div>
+								<button class="project-card__toggle" type="button">View details</button>
+							</div>
+							<div class="project-media">
+								<img
+									class="project-card__image"
+									src="//placehold.co/1200x675/24202a/ffc8a7?text=Challenges+Visual"
+									alt="Challenges section placeholder image"
+									loading="lazy"
+									decoding="async"
+								/>
+							</div>
+						</div>
+
+						<div class="project-item project-item--right project-item--featured">
+							<div class="project-media">
+								<img
+									class="project-card__image"
+									src="//placehold.co/1200x675/222833/ffd6b8?text=Lessons+Visual"
+									alt="What I learned placeholder image"
+									loading="lazy"
+									decoding="async"
+								/>
+							</div>
+							<div class="project-card">
+								<h2>What I Learned</h2>
+								<p class="project-card__excerpt">Summarize key takeaways and how the project changed your approach.</p>
+								<div class="project-card__more" hidden>
+									<p>Reflect on technical lessons, workflow improvements, and better patterns discovered.</p>
+									<p>Mention what you would do differently next time and which practices you kept.</p>
+									<p>Link this growth back to future projects or specialization goals.</p>
+								</div>
+								<button class="project-card__toggle" type="button">View details</button>
+							</div>
+						</div>
+					</div>
+
+					<a class="project-btn" href="#" target="_blank" rel="noopener noreferrer">View Live Demo</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer Section -->
+		<footer id="footer"></footer>
+
+		<script src="/js/load-master.js"></script>
+		<script src="/js/links.js"></script>
+		<script src="/js/project-card-toggle.js"></script>
+	</body>
+</html>
